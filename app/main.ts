@@ -6,10 +6,10 @@ import {bootstrap} from "@angular/platform-browser-dynamic";
     selector:'my-app',
     template: `<h1>Hello World !</h1>`
 })
-export class HelloWorld {
+export class App {
 
 
 
 }
 
-bootstrap(HelloWorld);
+bootstrap(App);
