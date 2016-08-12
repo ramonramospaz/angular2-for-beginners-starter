@@ -30,6 +30,7 @@ npm start
 
 When you type de command, it will show you where are you going to find the web server running. It will be something like this:
 
+...
 ** browser-sync config **
 { injectChanges: false,
   files: [ './**/*.{html,htm,css,js}' ],
@@ -43,6 +44,7 @@ When you type de command, it will show you where are you going to find the web s
           UI: http://localhost:3001
  UI External: http://10.0.13.70:3001
  -----------------------------------
+...
 
 # Making changes
 
