@@ -20,7 +20,7 @@ Then on the command line go into the folder and do:
 
     npm install
     
-This should take a couple of minutes. If there are issues, please post the complete error message in the Questions section of the course, i'm there to help. If you have node 6 this should go smoothly. 
+This should take a couple of minutes. If you have node 6 this should go smoothly. 
 
 # Starting the development server
 
@@ -28,15 +28,26 @@ To start the server, run the following command:
 
 npm start
 
-If you now go to [http://localhost:8080](http://localhost:8080), there should be a running application there. Again please do not hesitate to post a question in Udemy if its not.
+When you type de command, it will show you where are you going to find the web server running. It will be something like this:
+
+** browser-sync config **
+{ injectChanges: false,
+  files: [ './**/*.{html,htm,css,js}' ],
+  watchOptions: { ignored: 'node_modules' },
+  server: { baseDir: './', middleware: [ [Function], [Function] ] } }
+[BS] Access URLs:
+ -----------------------------------
+       Local: http://localhost:3000
+    External: http://10.0.13.70:3000
+ -----------------------------------
+          UI: http://localhost:3001
+ UI External: http://10.0.13.70:3001
+ -----------------------------------
 
 # Making changes
 
 If you edit a Typescript file and refresh the browser, the changes will be applied.
 
 
-## Brought to you by the Angular University
-
-Have a look at our course pipeline at [angular-university.io](https://angular-university.io/).
 
 
