@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "lite-server": "2.2.2",
-    "typescript": "1.8.18",
+    "typescript": "1.8.10",
     "npm-run-all": "3.0.0"
   }
 }
