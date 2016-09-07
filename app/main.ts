@@ -8,16 +8,16 @@ import {BrowserModule} from "@angular/platform-browser";
     selector:'my-app',
     template: `<h1>Hello World !</h1>`
 })
-export class HelloWorld {
+export class App {
 
 
 }
 
 
 @NgModule({
-    declarations: [HelloWorld],
+    declarations: [App],
     imports: [BrowserModule],
-    bootstrap: [HelloWorld]
+    bootstrap: [App]
 })
 export class AppModule {
 
