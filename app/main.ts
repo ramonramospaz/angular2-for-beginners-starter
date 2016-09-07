@@ -1,6 +1,5 @@
 
-import {Component} from "@angular/core";
-import {NgModule} from "@angular/core";
+import {Component,NgModule} from "@angular/core";
 import {platformBrowserDynamic} from "@angular/platform-browser-dynamic";
 import {BrowserModule} from "@angular/platform-browser";
 
