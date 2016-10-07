@@ -10,14 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jhades/angular2-for-beginners-starter.git"
+    "url": "git+https://github.com/ramonramospaz/angular2-for-beginners-starter.git"
   },
-  "author": "JhadesDev <jhades.dev@gmail.com> (http://blog.jhades.org/)",
+  "author": "NeoRayzor <ramonramospaz@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jhades/angular2-for-beginners-starter/issues"
-  },
-  "homepage": "https://github.com/jhades/angular2-for-beginners-starter#readme",
   "dependencies": {
     "@angular/common": "2.0.0",
     "@angular/compiler": "2.0.0",
